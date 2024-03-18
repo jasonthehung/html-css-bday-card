@@ -1,0 +1,66 @@
+body {
+    text-align: center;
+    font-family: "Happy Monkey", cursive;
+    background: linear-gradient(rgb(104, 104, 232), pink);
+    color: #ffffff;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#coco-img {
+    width: 200px;
+    border: 3px solid rgb(110, 34, 196);
+    border-radius: 50%;
+}
+
+#bday-age {
+    border-radius: 10px;
+    background-color: rgb(216, 144, 156);
+    padding: 5px 10px;
+    margin: 20px 0px 0px 0px;
+}
+
+#bday-date {
+    border-radius: 10px;
+    background-color: rgb(216, 144, 156);
+    padding: 5px 10px;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift {
+    border-radius: 20px;
+    border: 2px solid white;
+    height: 400px;
+    width: 400px;
+    margin: 0px auto;
+    background-image: url("/assets/gift-cover.jpg");
+    background-size: cover;
+}
+
+#third-gift {
+    height: 200px;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+#third-gift:hover {
+    background-image: url("/assets/cheers.gif");
+    background-size: cover;
+}
+
+#second-gift:hover {
+    background-image: url("/assets/coco1.JPG");
+    background-size: cover;
+}
+
+#first-gift:hover {
+    background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ2plY2s3YXphNjhmMnpvZXhzMXBkbWk1aDgzM2V6aGN0cWVoMXphbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/g5R9dok94mrIvplmZd/giphy.gif");
+    background-size: auto;
+}
